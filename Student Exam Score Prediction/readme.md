@@ -94,7 +94,20 @@ The data comes from two Portuguese secondary schools, and it includes student gr
 
 
 ## Results
-The final model's performance and insights will be detailed in the `results` folder. This includes the model evaluation metrics and important features influencing student performance.
+Model's Performance with r2-score:
+LinearRegression : 0.789291454376445
+Lasso Regression : -0.00042191125799884155
+Ridge Regression : 0.7803303067917783
+DecisionTreeRegressor : 0.71668659025385
+RandomForestRegressor : 0.8553250814523123
+AdaBoostRegressor : 0.8400906811768062
+GradientBoostingRegressor : 0.8737952006611264
+ExtraTreesRegressor : 0.8173330309635984
+KNeighborsRegressor : 0.5634751423950496
+SVR : 0.653756057520791
+XGBRegressor : 0.8032137653482628
+
+TThe best model is GradientBoostingRegressor
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your improvements.
@@ -103,4 +116,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-This project uses the dataset provided by [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Student+Performance).
+This project uses the dataset provided by [Kaggle](https://www.kaggle.com/datasets/impapan/student-performance-data-set).
